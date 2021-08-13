@@ -10,7 +10,7 @@ body {
 }
 
 .half-width {
-    height: 570px;
+    height: 600px;
     background: #10dada;
     padding: 30px;
     text-align: center;
@@ -109,8 +109,10 @@ color: #E0B612;
     margin: 0 auto;
 }
 .action-left {
-    color: #FF3C5F;
+    color: red;
     margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
 }
  .notify {
      display: none;
