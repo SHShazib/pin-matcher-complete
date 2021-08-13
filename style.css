@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #10101B;
+    /* background: #8181dd; */
     height: 100vh;
 }
 .container {
@@ -11,9 +11,11 @@ body {
 
 .half-width {
     height: 570px;
-    background: #222436;
+    background: #10dada;
     padding: 30px;
     text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
 }
 .generate-btn{
     margin-top: 140px;
@@ -31,24 +33,24 @@ body {
     outline: none;
     box-shadow: none;
 }
-#generatePin,#inputPin{
+#generatePin,#inputPin,.button{
     font-size: 25px;
     font-weight: bold;
     text-align: center;
 }
 input[type='text']{
-    background-color: #3D4153;
+    /* background-color: #3D4153; */
     padding: 10px 0px;
-    color: #ffffff;
+    color: #000;
     width: 80%;
     margin: 0 auto;
     border: 2px solid #858299;
-    height: 50px;
+    height: 60px;
     padding: 10px;
 }
 input[type='text']:focus {
-    background-color: #3D4153;
-    color: #fff;
+    /* background-color: #3D4153; */
+    color: #000;
     font-size: 20px;
 }
 .numbers {
@@ -68,7 +70,7 @@ width: 100%;
 
 .button {
 width: 20%;
-background: #425062;
+background: #000;
 color: #fff;
 padding: 20px 0;
 margin: 5px;
@@ -88,7 +90,9 @@ color: #E0B612;
     margin-top: 20px;
     padding: 10px 120px;
     border-radius: 5px;
-    background: #495BC3;
+    font-size: 25px;
+    font-weight: bold;
+    background: #098005b2;
     color: #fff;
 }
 .notify {
