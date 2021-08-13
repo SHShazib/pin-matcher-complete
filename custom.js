@@ -40,7 +40,8 @@ function removeNumber() {
 function submitBtn(){
     var randomNum = document.getElementById('generatePin').value;
       var randomNumber=parseFloat(randomNum);
-    var inputNumber = document.getElementById('inputPin').value;
+    var inputNum = document.getElementById('inputPin').value;
+        var inputNumber =parseFloat(inputNum);
 
     if(randomNumber == inputNumber){
         displayBlock('matched');
